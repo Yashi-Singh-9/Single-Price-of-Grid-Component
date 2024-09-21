@@ -1,7 +1,7 @@
 # Frontend Mentor - Single Price Grid Component Solution
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/55a02287-9c91-4c62-b5bc-af7d43c13dbd/deploy-status)](https://app.netlify.com/sites/single-price-of-grid-component/deploys)
-[![Last commit](https://img.shields.io/gitlab/last-commit/Yashi-Singh-9/single-price-of-grid)](https://gitlab.com/Yashi-Singh-9/single-price-of-grid/commits/main)
+[![Last commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Single-Price-of-Grid-Component)](https://github.com/Yashi-Singh-9/Single-Price-of-Grid-Component/commits/main)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue)
 
 This is a solution to the [Single Price Grid Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -41,7 +41,6 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Live Site](https://single-price-of-grid-component.netlify.app)
-- Solution Link: [Solution](https://www.frontendmentor.io/solutions/single-price-grid-component-qexT5jzBpD)
 
 ## My process
 
@@ -86,7 +85,7 @@ For styling guide refer to [Style Guide](style-guide.md)
 ## Author
 
 - LinkedIn - [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
-- Frontend Mentor - [@Yashi-Singh-1](https://www.frontendmentor.io/profile/Yashi-Singh-1)
+- Frontend Mentor - [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
 
 ## Acknowledgments
 
