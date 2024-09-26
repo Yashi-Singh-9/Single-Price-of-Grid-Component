@@ -40,6 +40,7 @@ Users should be able to:
 
 ### Links
 
+- Solution Link: [Solution](https://www.frontendmentor.io/solutions/single-price-grid-component-lp8pj_1Xmh)
 - Live Site URL: [Live Site](https://single-price-of-grid-component.netlify.app)
 
 ## My process
