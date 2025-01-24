@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$graysih-blue: hsl(218, 22%, 67%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh;
+    background-color: $light-gray;
+}
+
+.card{
+    width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 15px 20px 10px rgba(37, 43, 70, 0.3);
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .community{
+        padding: 40px;
+        background: #fff;
+
+        @media (max-width: 768px) {
+            padding-right: 20px;
+        }
+
+        h2{
+            color: $cyan;
+            padding-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        h3{            
+            font-weight: 700;
+            color: $bright-yellow;
+            padding-bottom: 16px;
+            opacity: 0.9;
+        }
+
+        p{
+            color: $graysih-blue;
+            line-height: 30px;
+            opacity: 0.7;
+        }
+    }
+
+    .plan{
+        display: flex;
+        overflow: hidden;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sub{
+            padding: 40px;
+            background-color: $cyan;
+            color: #fff;
+
+            @media (min-width: 768px) {
+                width: 50%;
+            }
+
+            @media (max-width: 768px) {
+                width: 100%; 
+            }
+
+            h3{
+                padding-bottom: 20px;
+                opacity: 0.9;
+            }
+
+            .price{
+                display: inline-flex !important;
+
+                .price-p{
+                    padding: 8px 0 0 12px;
+                    opacity: 0.5;
+                }
+            }
+
+            .access{
+                padding: 10px 0 20px 0;
+                opacity: 0.8;
+            }
+
+            button{
+                margin-top: 20px;
+                width: 100%;
+                padding: 15px;
+                border-radius: 5px;
+                background-color: $bright-yellow;
+                color: #fff;
+                border: none;
+                font-size: 16px;
+                font-weight: 700;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+
+                &:hover{
+                    background-color: hsl(71, 73%, 64%); 
+                    transform: scale(1.05); 
+                }
+            }
+        }
+
+        .why{
+            padding: 40px;
+            background-color: $cyan;
+            opacity: 0.8;
+            color: #fff;
+
+            @media (max-width: 768px) {
+                width: 100%; 
+            }
+
+            @media (min-width: 768px) {
+                width: 50%;
+            }
+
+            h3{
+                padding-bottom: 20px;
+                opacity: 0.9 !important;
+            }
+
+            ul{
+                list-style-type: none;
+
+                li{
+                    padding-bottom: 3px;
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center; 
+    margin-bottom: 10px; 
+    color: $graysih-blue;
+
+    a,
+    a:visited{
+        color: $cyan;
+        text-decoration: none;
+        font-style: italic;
+    }
+}
