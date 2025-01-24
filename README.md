@@ -1,6 +1,6 @@
 # Frontend Mentor - Single Price Grid Component Solution
 
-[![Last commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Single-Price-of-Grid-Component)](https://github.com/Yashi-Singh-9/Single-Price-of-Grid-Component/
+![Last commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Single-Price-of-Grid-Component)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![SCSS](https://img.shields.io/badge/SCSS-%23c6538c.svg?style=flat&logo=sass&logoColor=white)
